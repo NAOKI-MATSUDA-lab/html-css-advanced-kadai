@@ -68,7 +68,7 @@ PC用のスタイル
 /*================
 SP用のスタイル 
 =================*/
-@media screen and(max-width:767px){
+@media screen and (max-width:767px){
   body{
     min-width:375px;
     margin:0;
@@ -123,5 +123,8 @@ SP用のスタイル
     background-image:url("images/arrow.png");
     background-repeat:no-repeat;
     background-position:right top;
+  }
+  #nav-sp > a >img{
+    margin:100px 0 20px 0;
   }
 }
